@@ -19,6 +19,7 @@ jobs:
       - name: Install dependencies
         run: | 
           pip install jupyter
+          ipython kernel install --name=python3 --user
           pip install jupytext
       - name: Build notebooks
         run: |
