@@ -31,4 +31,4 @@ jobs:
         with:
           author-name: GitHub Bot
           commit-message: 'chore(build): Build Jupyter Notebooks'
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.ACTIONS_PUSH_TOKEN }}
