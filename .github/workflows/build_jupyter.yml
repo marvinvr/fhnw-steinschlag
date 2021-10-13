@@ -23,7 +23,7 @@ jobs:
       - name: Build notebooks
         run: |
           rm -rf notebooks/*
-          jupytext --to ipynb scripts/*.py
+          jupytext --to ipynb --execute scripts/*.py
           mv scripts/*.ipynb notebooks/
       - name: Push changes
         uses: actions-go/push@v1
