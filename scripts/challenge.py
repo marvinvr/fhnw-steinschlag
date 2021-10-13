@@ -10,3 +10,6 @@ print(5*3+1)
 # Luca sein erster Versuch
 
 # %%
+#Das ist ein Text von Philip Tanner
+print('Ich bin kein Informatiker')
+# %%
