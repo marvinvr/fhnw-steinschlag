@@ -7,5 +7,7 @@ print(5*5)
 print(5*3+1)
 
 # %%
+#Das ist ein Text von Philip Tanner
+print('Ich bin kein Informatiker')
 
 # %%
