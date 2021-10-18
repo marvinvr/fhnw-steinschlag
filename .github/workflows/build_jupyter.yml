@@ -24,7 +24,7 @@ jobs:
           pip install -r requirements.txt 
       - name: Build notebooks
         run: |
-          rm -rf notebooks/*
+          rm -rf notebooks/*.ipynb
           jupytext --to ipynb --execute scripts/*.py
           mv scripts/*.ipynb notebooks/
       - name: Push changes
