@@ -1,3 +1,3 @@
-## IMPORTANT
+# IMPORTANT
 
-DO NOT WORK WITH FILES IN THIS DIRECTORY. USE THE FILES IN THE scripts/ directory.
+Do **NOT** edit files in this directory, they will be deleted on every commit to `master`. Work with the files in the `/scripts/` directory.
