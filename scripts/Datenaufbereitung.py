@@ -20,8 +20,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # %%
-Zone1 = pd.read_csv("data/out_1.csv", sep=",")
-Zone2 = pd.read_csv("data/out_2.csv", sep=",")
+Zone1 = pd.read_csv("data/out_1.csv", sep=";")
+Zone2 = pd.read_csv("data/out_2.csv", sep=";")
 
 # %%
 Zone1['Datum'] = pd.to_datetime(Zone1['Datum'], dayfirst=True)
