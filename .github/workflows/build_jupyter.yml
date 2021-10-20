@@ -21,11 +21,13 @@ jobs:
           pip install jupyter
           ipython kernel install --name=python3 --user
           pip install jupytext
+          pip install -r requirements.txt 
       - name: Build notebooks
         run: |
-          rm -rf notebooks/*
+          rm -rf notebooks/*.ipynb
           jupytext --to ipynb --execute scripts/*.py
           mv scripts/*.ipynb notebooks/
+          git add notebooks
       - name: Push changes
         uses: actions-go/push@v1
         with:
