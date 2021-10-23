@@ -25,7 +25,7 @@ jobs:
       - name: Build notebooks
         run: |
           rm -rf notebooks/*.ipynb
-          jupytext --to ipynb --execute scripts/*.py
+          jupytext --to ipynb --execute scripts/*.py --run-path .
           mv scripts/*.ipynb notebooks/
           git add notebooks
       - name: Push changes
