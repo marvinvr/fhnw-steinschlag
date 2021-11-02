@@ -28,9 +28,9 @@ from matplotlib import pyplot as plt
 # ### Daten Importieren
 
 # %%
-zone_1 = pd.read_csv('../data/out_1.csv', ';')
-zone_2 = pd.read_csv('../data/out_2.csv', ';')
-weather = pd.read_csv('../data/weather.csv')
+zone_1 = pd.read_csv('./data/out_1.csv', ';')
+zone_2 = pd.read_csv('./data/out_2.csv', ';')
+weather = pd.read_csv('./data/weather.csv')
 
 # %%
 display(zone_1.head())
