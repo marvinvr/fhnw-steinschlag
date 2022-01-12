@@ -28,8 +28,8 @@ from fitter import Fitter, get_common_distributions, get_distributions
 
 # %%
 #Daten einlesen
-ablöseZone1 = pd.read_csv("../data/out_1_getrennt.csv", sep=";")
-ablöseZone2 = pd.read_csv("../data/out_2_getrennt.csv", sep=";")
+ablöseZone1 = pd.read_csv("./data/out_1_getrennt.csv", sep=";")
+ablöseZone2 = pd.read_csv("./data/out_2_getrennt.csv", sep=";")
 
 print('Ablösezone 1')
 display(ablöseZone1.head(5))
