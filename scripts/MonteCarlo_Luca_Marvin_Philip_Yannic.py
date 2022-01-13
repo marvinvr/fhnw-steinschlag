@@ -506,7 +506,7 @@ def monteCarlo(simulationslängeJahre: int):
 
 
 # %%
-jahre = 1_000_000
+jahre = 500_000
 resultat = monteCarlo(jahre)
 print("Anzahl Steinschläge:", resultat[0])
 print("Anzahl Netzreisser:", resultat[1])
